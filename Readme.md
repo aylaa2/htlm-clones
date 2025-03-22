@@ -15,7 +15,6 @@ Compare document similarity using cosine similarity.
 
 Cluster the similar pages together
 
-# HTML Clustering with Cosine Similarity & DBSCAN
 
 This project tackles the problem of **identifying clusters of similar HTML pages** based on their visible text content. At a high level, it reads HTML files, extracts meaningful content (ignoring scripts and styles), vectorizes them using term frequency, and clusters them using a lightweight density-based approach inspired by **DBSCAN**.
 
